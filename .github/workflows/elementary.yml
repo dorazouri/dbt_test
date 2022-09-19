@@ -10,7 +10,7 @@ on:
 
   # Run the action in a scheduled manner every hour.
   schedule:
-    - cron: '*/3 * * * *'
+    - cron: '0 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab.
   workflow_dispatch:
