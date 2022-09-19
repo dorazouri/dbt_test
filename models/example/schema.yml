@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: cities_names
+    description: "A starter dbt model"
+    columns:
+      - name: name
+        description: "some column"
+        tests:
+          - unique
+          - not_null
